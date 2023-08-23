@@ -1,71 +1,10 @@
-<template>
-  <header class="sticky-top site-header">
-    <nav class="navbar">
-      <div class="logo">Meu Site</div>
-      <ul class="nav-links">
-        <li><a href="#">Página Inicial</a></li>
-        <li><a href="#">Sobre Nós</a></li>
-        <li><a href="#">Serviços</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
-  <main>
-    <div id="carouselExampleAutoplaying" class="carousel main" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="a.jpeg" class="d-block w-100" alt="" />
-        </div>
-        <div class="carousel-item">
-          <img src="download.jpeg" class="d-block w-100" alt="" />
-        </div>
-        <div class="carousel-item">
-          <img src="images.jpeg" class="d-block w-100" alt="" />
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <div class="container">
-      <!-- Divs adicionais -->
-      <div class="additional-container">
-        <div class="additional-item"><img src="download.jpeg" alt="" /></div>
-        <div class="additional-item"><img src="download.jpeg" alt="" /></div>
-        <div class="additional-item"><img src="download.jpeg" alt="" /></div>
-      </div>
+<script setup>
+  import CabecalhoComp from "@/components/CabecalhoComp.vue";
+</script>
 
-      <!-- Mais três divs abaixo das divs criadas -->
-      <div class="bottom-container">
-        <div class="bottom-item">
-          <img src="download.jpeg" alt="" />
-          <span class="bottom-text">kfjaskjdfsajdkfjska</span>
-        </div>
-        <div class="bottom-item"><img src="download.jpeg" alt="" /></div>
-        <div class="bottom-item"><img src="download.jpeg" alt="" /></div>
-      </div>
-      <div class="xd-container">
-        <div class="bottom-i"><img src="download.jpeg" alt="" /></div>
-        <div class="bottom-i"><img src="download.jpeg" alt="" /></div>
-        <div class="bottom-i"><img src="download.jpeg" alt="" /></div>
-      </div>
-    </div>
-  </main>
+<template>
+  <CabecalhoComp />
+  <RouterView />
 </template>
 
 <style scoped>

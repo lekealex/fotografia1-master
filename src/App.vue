@@ -8,16 +8,17 @@
 </template>
 
 <style scoped>
+* {
+  background-color: #fefae0;
+}
 .container {
-  background-color: #012345;
   max-width: none;
   width: 100%;
 }
 /* Estilos do cabeçalho */
 
 .site-header {
-  background-color: #012345;
-  color: #fff;
+  color: #ccd5ae;
   padding: 20px 0;
   width: 100%;
   left: 0;
@@ -51,15 +52,15 @@
 }
 
 .nav-links li a:hover {
-  color: #ff9900;
+  color: #d4a373;
 }
 
 /* Estilos para a imagem */
 .image-container {
   text-align: center;
   margin-top: 50px;
-  border: 1px solid #ec0707; /* Adicionando a borda */
-  padding: 10px; /* Espaçamento interno da borda */
+  border: 1px solid #ec0707; 
+  padding: 10px; 
 }
 
 .image-container img {
@@ -74,7 +75,7 @@
 }
 
 .additional-item {
-  width: calc(33.33% - 10px); /* Largura dividida em três com espaçamento entre as divs */
+  width: calc(33.33% - 10px); 
   border: 1px solid #012345;
   padding: 10px;
   text-align: center;
@@ -89,7 +90,6 @@
 }
 
 .bottom-item {
-  /* width: calc(33.33% - 10px); Largura dividida em três com espaçamento entre as divs */
   width: 220px;
   border: 1px solid #012345;
   padding: 10px;
@@ -98,7 +98,6 @@
   display: flex;
 }
 .bottom-item:hover {
-  /* width: calc(33.33% - 10px); Largura dividida em três com espaçamento entre as divs */
   width: 300px;
 }
 .bottom-item img {
@@ -114,7 +113,7 @@
   margin-top: 20px;
 }
 .bottom-i {
-  width: calc(33.33% - 10px); /* Largura dividida em três com espaçamento entre as divs */
+  width: calc(33.33% - 10px); 
   border: 1px solid #012345;
   padding: 10px;
   text-align: center;

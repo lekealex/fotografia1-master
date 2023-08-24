@@ -3,13 +3,13 @@
     <div id="carouselExampleAutoplaying" class="carousel main" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="@/assets/imagens/a.jpeg" class="d-block w-100" alt="" />
+          <img src="@/assets/imagens/1.jpg" class="d-block w-100" alt="" />
         </div>
         <div class="carousel-item">
-          <img src="@/assets/imagens/download.jpeg" class="d-block w-100" alt="" />
+          <img src="@/assets/imagens/2.jpg" class="d-block w-100" alt="" />
         </div>
         <div class="carousel-item">
-          <img src="@/assets/imagens/images.jpeg" class="d-block w-100" alt="" />
+          <img src="@/assets/imagens/3.jpg" class="d-block w-100" alt="" />
         </div>
       </div>
       <button
@@ -32,14 +32,14 @@
       </button>
     </div>
     <div class="container">
-      <!-- Divs adicionais -->
+     
       <div class="additional-container">
         <div class="additional-item"><img src="@/assets/imagens/download.jpeg" alt="" /></div>
         <div class="additional-item"><img src="@/assets/imagens/download.jpeg" alt="" /></div>
         <div class="additional-item"><img src="@/assets/imagens/download.jpeg" alt="" /></div>
       </div>
 
-      <!-- Mais três divs abaixo das divs criadas -->
+     
       <div class="bottom-container">
         <div class="bottom-item">
           <img src="@/assets/imagens/download.jpeg" alt="" />
@@ -58,8 +58,8 @@
 </template>
 
 <style scoped>
+
 .container {
-  background-color: #012345;
   max-width: none;
   width: 100%;
 }
@@ -68,8 +68,8 @@
 .image-container {
   text-align: center;
   margin-top: 50px;
-  border: 1px solid #ec0707; /* Adicionando a borda */
-  padding: 10px; /* Espaçamento interno da borda */
+  border: 1px solid #ec0707; 
+  padding: 10px;
 }
 
 .image-container img {
@@ -84,7 +84,7 @@
 }
 
 .additional-item {
-  width: calc(33.33% - 10px); /* Largura dividida em três com espaçamento entre as divs */
+  width: calc(33.33% - 10px); 
   border: 1px solid #012345;
   padding: 10px;
   text-align: center;
@@ -99,7 +99,6 @@
 }
 
 .bottom-item {
-  /* width: calc(33.33% - 10px); Largura dividida em três com espaçamento entre as divs */
   width: 220px;
   border: 1px solid #012345;
   padding: 10px;
@@ -108,7 +107,6 @@
   display: flex;
 }
 .bottom-item:hover {
-  /* width: calc(33.33% - 10px); Largura dividida em três com espaçamento entre as divs */
   width: 300px;
 }
 .bottom-item img {
@@ -124,9 +122,19 @@
   margin-top: 20px;
 }
 .bottom-i {
-  width: calc(33.33% - 10px); /* Largura dividida em três com espaçamento entre as divs */
+  width: calc(33.33% - 10px); 
   border: 1px solid #012345;
   padding: 10px;
   text-align: center;
 }
+
+.carousel-inner {
+  height: 300px; 
+}
+
+.carousel-inner img {
+  height: 100%;
+  object-fit: cover; 
+}
+
 </style>

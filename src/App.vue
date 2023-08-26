@@ -1,15 +1,20 @@
 <script setup>
   import CabecalhoComp from "@/components/CabecalhoComp.vue";
+  import FooterComp from "./components/FooterComp.vue";
 </script>
 
 <template>
   <CabecalhoComp />
   <RouterView />
+  <FooterComp />
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+
 * {
   background-color: #fefae0;
+font-family: 'Raleway', sans-serif;
 }
 .container {
   max-width: none;

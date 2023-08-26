@@ -1,15 +1,19 @@
+<script setup>
+  import ImagemComp from "@/components/ImagemComp.vue";
+</script>
+
 <template>
     <main>
     <div id="carouselExampleAutoplaying" class="carousel main" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="@/assets/imagens/1.jpg" class="d-block w-100" alt="" />
+          <img src="@/assets/imagens/a.jpeg" class="d-block w-100" alt="" />
         </div>
         <div class="carousel-item">
-          <img src="@/assets/imagens/2.jpg" class="d-block w-100" alt="" />
+          <img src="@/assets/imagens/dog.jpg" class="d-block w-100" alt="" />
         </div>
         <div class="carousel-item">
-          <img src="@/assets/imagens/3.jpg" class="d-block w-100" alt="" />
+          <img src="@/assets/imagens/Irelia_37.webp" class="d-block w-100" alt="" />
         </div>
       </div>
       <button
@@ -34,24 +38,24 @@
     <div class="container">
      
       <div class="additional-container">
-        <div class="additional-item"><img src="@/assets/imagens/download.jpeg" alt="" /></div>
-        <div class="additional-item"><img src="@/assets/imagens/download.jpeg" alt="" /></div>
-        <div class="additional-item"><img src="@/assets/imagens/download.jpeg" alt="" /></div>
+        <div class="additional-item"><ImagemComp /></div>
+        <div class="additional-item"><ImagemComp /></div>
+        <div class="additional-item"><ImagemComp /></div>
       </div>
 
      
       <div class="bottom-container">
         <div class="bottom-item">
-          <img src="@/assets/imagens/download.jpeg" alt="" />
+          <ImagemComp />
           <span class="bottom-text">kfjaskjdfsajdkfjska</span>
         </div>
-        <div class="bottom-item"><img src="@/assets/imagens/download.jpeg" alt="" /></div>
-        <div class="bottom-item"><img src="@/assets/imagens/download.jpeg" alt="" /></div>
+        <div class="bottom-item"><ImagemComp /></div>
+        <div class="bottom-item"><ImagemComp /></div>
       </div>
       <div class="xd-container">
-        <div class="bottom-i"><img src="@/assets/imagens/download.jpeg" alt="" /></div>
-        <div class="bottom-i"><img src="@/assets/imagens/download.jpeg" alt="" /></div>
-        <div class="bottom-i"><img src="@/assets/imagens/download.jpeg" alt="" /></div>
+        <div class="bottom-i"><ImagemComp /></div>
+        <div class="bottom-i"><ImagemComp /></div>
+        <div class="bottom-i"><ImagemComp /></div>
       </div>
     </div>
   </main>
@@ -120,6 +124,7 @@
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  
 }
 .bottom-i {
   width: calc(33.33% - 10px); 

@@ -1,3 +1,7 @@
+<script setup>
+  import FuncionarioComp from "@/components/FuncionarioComp.vue";
+</script>
+
 <template>
   <main>
     <section class="about-section">
@@ -46,41 +50,41 @@
       <div class="professionals-grid">
         <!-- Profissional 1 -->
         <div class="professional-card">
-          <img src="@/assets/imagens/6.jpg" alt="Profissional 1" />
+          <FuncionarioComp />
           <h3>Nome do Profissional 1</h3>
           <p>Especializado em fotografia de casamento</p>
         </div>
 
         <!-- Profissional 2 -->
         <div class="professional-card">
-          <img src="@/assets/imagens/6.jpg" alt="Profissional 2" />
+          <FuncionarioComp />
           <h3>Nome do Profissional 2</h3>
           <p>Especializado em retratos e fotografia de família</p>
         </div>
 
         <div class="professional-card">
-          <img src="@/assets/imagens/7.jpg" alt="Profissional 3" />
+          <FuncionarioComp />
           <h3>Nome do Profissional 3</h3>
           <p>Especializado em fotografia de natureza</p>
         </div>
 
         <!-- Profissional 4 -->
         <div class="professional-card">
-          <img src="@/assets/imagens/6.jpg" alt="Profissional 4" />
+          <FuncionarioComp />
           <h3>Nome do Profissional 4</h3>
           <p>Especializado em fotografia de eventos corporativos</p>
         </div>
 
         <!-- Profissional 5 -->
         <div class="professional-card">
-          <img src="@/assets/imagens/7.jpg" alt="Profissional 5" />
+          <FuncionarioComp />
           <h3>Nome do Profissional 5</h3>
           <p>Especializado em fotografia de paisagens urbanas</p>
         </div>
 
         <!-- Profissional 6 -->
         <div class="professional-card">
-          <img src="@/assets/imagens/6.jpg" alt="Profissional 6" />
+          <FuncionarioComp />
           <h3>Nome do Profissional 6</h3>
           <p>Especializado em fotografia de comida</p>
         </div>

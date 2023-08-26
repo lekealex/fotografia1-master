@@ -7,17 +7,17 @@
       <form class="contact-form" >
         <div class="input-group">
           <label for="name">Nome:</label>
-          <input type="text" id="name" required />
+          <input type="text" id="name" placeholder="Lucas Martins" required />
         </div>
 
         <div class="input-group">
           <label for="email">E-mail:</label>
-          <input type="email" id="email"  required />
+          <input type="email" id="email" placeholder="lucasM@gmail.com"  required />
         </div>
 
         <div class="input-group">
           <label for="subject">Assunto:</label>
-          <input type="text" id="subject" required />
+          <input type="text" id="subject" placeholder="Casamento, retratos, eventos, etc" required />
         </div>
 
         <div class="input-group">

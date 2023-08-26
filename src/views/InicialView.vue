@@ -3,149 +3,174 @@
 </script>
 
 <template>
-    <main>
-    <div id="carouselExampleAutoplaying" class="carousel main" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="@/assets/imagens/a.jpeg" class="d-block w-100" alt="" />
+  <main>
+    <div class="carousel-section">
+      <div id="carouselExampleAutoplaying" class="carousel main" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="@/assets/imagens/a.jpeg" class="d-block w-100" alt="" />
+          </div>
+          <div class="carousel-item">
+            <img src="@/assets/imagens/dog.jpg" class="d-block w-100" alt="" />
+          </div>
+          <div class="carousel-item">
+            <img src="@/assets/imagens/Irelia_37.webp" class="d-block w-100" alt="" />
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="@/assets/imagens/dog.jpg" class="d-block w-100" alt="" />
-        </div>
-        <div class="carousel-item">
-          <img src="@/assets/imagens/Irelia_37.webp" class="d-block w-100" alt="" />
-        </div>
+        <button
+          class="carousel-control-prev styled-button"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next styled-button"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleAutoplaying"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
+      <p class="carousel-desc">Explore nosso portfólio diversificado e descubra a qualidade que podemos trazer ao seu evento.</p>
     </div>
+
     <div class="container">
-     
+      <h2 class="section-title">Destaques</h2>
       <div class="additional-container">
         <div class="additional-item"><ImagemComp /></div>
         <div class="additional-item"><ImagemComp /></div>
         <div class="additional-item"><ImagemComp /></div>
       </div>
 
-     
-      <div class="bottom-container">
-        <div class="bottom-item">
-          <ImagemComp />
-          <span class="bottom-text">kfjaskjdfsajdkfjska</span>
-        </div>
-        <div class="bottom-item"><ImagemComp /></div>
-        <div class="bottom-item"><ImagemComp /></div>
-      </div>
+      <h2 class="section-title">Recentes</h2>
       <div class="xd-container">
         <div class="bottom-i"><ImagemComp /></div>
         <div class="bottom-i"><ImagemComp /></div>
         <div class="bottom-i"><ImagemComp /></div>
       </div>
+
+      <h2 class="section-title">Depoimentos</h2>
+      <div class="testimonials">
+        <blockquote>"O serviço foi excelente!"</blockquote>
+        <blockquote>"Fotos maravilhosas, equipe incrível!"</blockquote>
+        <blockquote>"Valeu cada centavo!"</blockquote>
+      </div>
     </div>
   </main>
 </template>
 
+
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap');
 
-* {
-font-family: 'Raleway', sans-serif;
-}
+  * {
+    font-family: 'Raleway', sans-serif;
+  }
 
-.container {
-  max-width: none;
-  width: 100%;
-  background-color: #fff;
-}
+  .container {
+    max-width: none;
+    width: 100%;
+    background-color: #fff;
+  }
 
-/* Estilos para a imagem */
-.image-container {
-  text-align: center;
-  margin-top: 50px;
-  border: 1px solid #ec0707; 
-  padding: 10px;
-}
+  .additional-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
 
-.image-container img {
-  max-width: 100%;
-}
+  .additional-item {
+    width: calc(33.33% - 10px);
+    padding: 10px;
+    text-align: center;
+  }
 
-/* Estilos para as divs adicionais */
-.additional-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
+  .bottom-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
 
-.additional-item {
-  width: calc(33.33% - 10px); 
-  border: 1px solid #012345;
-  padding: 10px;
-  text-align: center;
-}
+  .bottom-item {
+    width: 220px;
+    border: 1px solid #ccd5ae;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+  }
 
-/* Estilos para as divs no fundo */
-.bottom-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-  /* width: 200px; */
-}
+  .bottom-item img {
+    width: 220px;
+  }
 
-.bottom-item {
-  width: 220px;
-  border: 1px solid #012345;
-  padding: 10px;
-  text-align: center;
-  overflow: hidden;
-  display: flex;
-}
-.bottom-item:hover {
-  width: 300px;
-}
-.bottom-item img {
-  width: 220px;
-}
-.bottom-item .bottom-text {
-  color: white;
-}
+  .xd-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
 
-.xd-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-  
-}
-.bottom-i {
-  width: calc(33.33% - 10px); 
-  border: 1px solid #012345;
-  padding: 10px;
-  text-align: center;
-}
+  .bottom-i {
+    width: calc(33.33% - 10px);
+    padding: 10px;
+    text-align: center;
+  }
 
-.carousel-inner {
-  height: 300px; 
-}
+  .carousel-inner {
+    height: 300px;
+  }
 
-.carousel-inner img {
-  height: 100%;
-  object-fit: cover; 
-}
+  .carousel-inner img {
+    height: 100%;
+    object-fit: cover;
+  }
 
+  .carousel-section {
+    text-align: center;
+  }
+
+  .carousel-desc {
+    margin-top: 10px;
+    color: #555;
+  }
+
+  .section-title {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+
+  .testimonials {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 8px;
+  }
+
+  blockquote {
+    font-size: 18px;
+    font-style: italic;
+    padding: 10px;
+    border-left: 4px solid #ccd5ae;
+    margin: 10px;
+  }
+
+  .styled-button {
+    background-color: #ccd5ae;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .styled-button:hover {
+    background-color: #ccd5ae;
+  }
 </style>

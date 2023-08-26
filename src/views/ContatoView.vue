@@ -74,6 +74,7 @@ button {
   background-color: #d4a373;
   border: none;
   color: white;
+  border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }

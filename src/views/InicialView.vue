@@ -8,13 +8,13 @@
       <div id="carouselExampleAutoplaying" class="carousel main" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="@/assets/imagens/a.jpeg" class="d-block w-100" alt="" />
+            <img src="@/assets/imagens/3.jpg" class="d-block w-100" alt="" />
           </div>
           <div class="carousel-item">
             <img src="@/assets/imagens/dog.jpg" class="d-block w-100" alt="" />
           </div>
           <div class="carousel-item">
-            <img src="@/assets/imagens/Irelia_37.webp" class="d-block w-100" alt="" />
+            <img src="@/assets/imagens/1.jpg" class="d-block w-100" alt="" />
           </div>
         </div>
         <button

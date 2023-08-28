@@ -5,37 +5,37 @@
         <div class="professional-card">
           <h3>Nome do Profissional 1</h3>
           <p>Especializado em fotografia de casamento</p>
-          <img src="@/assets/imagens/7.jpg" alt="Profissional 6" />
+          <img src="@/assets/imagens/6.jpg" alt="Profissional 6" />
         </div>
 
         <div class="professional-card">
           <h3>Nome do Profissional 2</h3>
           <p>Especializado em retratos e fotografia de família</p>
-          <img src="@/assets/imagens/7.jpg" alt="Profissional 6" />
+          <img src="@/assets/imagens/6.jpg" alt="Profissional 6" />
         </div>
 
         <div class="professional-card">
           <h3>Nome do Profissional 3</h3>
           <p>Especializado em fotografia de natureza</p>
-          <img src="@/assets/imagens/7.jpg" alt="Profissional 6" />
+          <img src="@/assets/imagens/6.jpg" alt="Profissional 6" />
         </div>
 
         <div class="professional-card">
           <h3>Nome do Profissional 4</h3>
           <p>Especializado em fotografia de eventos corporativos</p>
-          <img src="@/assets/imagens/7.jpg" alt="Profissional 6" />
+          <img src="@/assets/imagens/6.jpg" alt="Profissional 6" />
         </div>
 
         <div class="professional-card">
           <h3>Nome do Profissional 5</h3>
           <p>Especializado em fotografia de paisagens urbanas</p>
-          <img src="@/assets/imagens/7.jpg" alt="Profissional 6" />
+          <img src="@/assets/imagens/6.jpg" alt="Profissional 6" />
         </div>
 
         <div class="professional-card">
           <h3>Nome do Profissional 6</h3>
           <p>Especializado em fotografia de comida</p>
-          <img src="@/assets/imagens/7.jpg" alt="Profissional 6" />
+          <img src="@/assets/imagens/6.jpg" alt="Profissional 6" />
         </div>
       </div>
     </section>

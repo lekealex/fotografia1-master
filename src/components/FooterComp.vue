@@ -2,7 +2,7 @@
     <footer class="sticky-bottom site-footer">
       <nav class="footer-navbar">
         <div class="footer-container">
-          <!-- Informações de Contato -->
+          
           <div class="contact-info">
             <h3>Contato</h3>
             <p><strong>Telefone:</strong> +55 (47) 99999-9999</p>
@@ -10,7 +10,7 @@
             <p><strong>Endereço:</strong> 123 Rua Fotografia, Cidade Luz</p>
           </div>
   
-          <!-- Redes Sociais -->
+          
           <div class="social-media">
             <h3>Redes Sociais</h3>
             <a href="#">Facebook</a>
@@ -18,7 +18,7 @@
             <a href="#">Twitter</a>
           </div>
   
-          <!-- Links Rápidos -->
+        
           <div class="quick-links">
             <h3>Links Rápidos</h3>
             <RouterLink to="/sobre">Sobre Nós</RouterLink>
@@ -28,7 +28,7 @@
         </div>
       </nav>
   
-      <!-- Copyright -->
+     
       <div class="copyright">
         <p>&copy; 2023 Fotographx. Todos os direitos reservados.</p>
       </div>

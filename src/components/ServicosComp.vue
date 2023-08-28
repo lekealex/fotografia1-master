@@ -73,7 +73,7 @@ font-family: 'Raleway', sans-serif;
 }
 
 .package-title {
-  min-height: 60px; /* ajuste conforme necessário */
+  min-height: 60px; 
   margin: 0 0 10px;
 }
 
@@ -104,7 +104,7 @@ font-family: 'Raleway', sans-serif;
   }
 
   .choose-package:hover {
-    background-color: #bf8f61;
+    background-color: #bf8f61; 
   }
 
 </style>

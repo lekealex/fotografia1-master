@@ -3,8 +3,7 @@
     <div class="container">
       <div class="forms-container">
         <div class="form-wrapper">
-          <h2>Fazer Reserva</h2>
-          <form @submit.prevent="makeReservation">
+          <form>
             <input type="date" placeholder="Data" />
             <input type="time" placeholder="Horário" />
             <input type="text" placeholder="Local" />
@@ -21,7 +20,7 @@
         </div>
         <div class="form-wrapper">
           <h2>Cancelar Reserva</h2>
-          <form @submit.prevent="cancelReservation">
+          <form>
             <input type="text" placeholder="ID da Reserva" />
             <RouterLink to="/"><button type="submit">Cancelar</button></RouterLink>
           </form>

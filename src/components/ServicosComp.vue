@@ -5,36 +5,33 @@
       <p class="services-intro">Na Fotographx, oferecemos mais do que apenas fotografia. Explore nossos pacotes abaixo para encontrar a melhor solução para o seu evento especial.</p>
 
       <div class="packages-container">
-        <!-- Pacotes de Fotografia -->
         <div class="package-card">
           <h2 class="package-title">Pacote Básico de Fotografia</h2>
           <p>Este pacote inclui fotografia básica para pequenos eventos e sessões de retratos.</p>
           <strong>Preço: $300</strong>
-          <button class="choose-package">Escolher Pacote</button>
+          <RouterLink to="/reserva"><button class="choose-package">Escolher Pacote</button></RouterLink>
         </div>
 
         <div class="package-card">
           <h2 class="package-title">Pacote Premium de Fotografia</h2>
           <p>Este pacote inclui serviços de fotografia avançada, adequados para grandes eventos e casamentos.</p>
           <strong>Preço: $600</strong>
-          <button class="choose-package">Escolher Pacote</button>
+          <RouterLink to="/reserva"><button class="choose-package">Escolher Pacote</button></RouterLink>
         </div>
 
-        <!-- Pacote de Organização de Eventos -->
         <div class="package-card">
           <h2 class="package-title">Pacote Completo: Fotografia + Organização de Eventos</h2>
           <p>Este é o nosso pacote mais completo. Além de nossa fotografia de alta qualidade, também cuidamos de toda a organização do seu evento, desde o planejamento até a execução.</p>
           <strong>Preço: $1200</strong>
-          <button class="choose-package">Escolher Pacote</button>
+          <RouterLink to="/reserva"><button class="choose-package">Escolher Pacote</button></RouterLink>
         </div>
       </div>
 
-      <!-- Pacote Deluxe -->
       <div class="package-card deluxe">
         <h2 class="package-title">Pacote Deluxe: Tudo Incluso + Extras Exclusivos</h2>
         <p>Este pacote oferece uma experiência inigualável. Inclui todos os serviços dos pacotes anteriores, mais um fotógrafo adicional, um videomaker, e um coordenador de eventos pessoal. Também vem com uma sessão de fotos pré-evento e um álbum de luxo personalizado.</p>
         <strong>Preço: $2500</strong>
-        <button class="choose-package">Escolher Pacote</button>
+        <RouterLink to="/reserva"><button class="choose-package">Escolher Pacote</button></RouterLink>
       </div>
     </section>
   </main>

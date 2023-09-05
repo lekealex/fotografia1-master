@@ -3,7 +3,7 @@
       <img src="@/assets/imagens/ee257edfd43bd602d5da72730e7228c5.jpg" alt="" />
       <div class="overlay">
         <h4>Evento Especial</h4>
-        <button>Ver Mais</button>
+        <RouterLink to="/sobre"><button>Ver mais</button></RouterLink>
       </div>
     </div>
   </template>

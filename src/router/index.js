@@ -3,6 +3,7 @@ import InicialView from "../views/InicialView.vue";
 import ContatoView from "../views/ContatoView.vue";
 import ServicoView from "../views/ServicoView.vue";
 import SobreView from "../views/SobreView.vue";
+import ContaView from "../views/ContaView.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,6 +28,11 @@ const router = createRouter({
         path: "/sobre",
         name: "sobre",
         component: SobreView,
+      },
+      {
+        path: "/conta",
+        name: "conta",
+        component: ContaView,
       },
   ],
 });

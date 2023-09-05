@@ -6,8 +6,6 @@ import FooterComp from "../components/FooterComp.vue";
 
 <template>
   <main>
-
-    <CabecalhoComp />
     <RouterView />
     <div class="carousel-section">
       <div id="carouselExampleAutoplaying" class="carousel main" data-bs-ride="carousel">
@@ -72,7 +70,6 @@ import FooterComp from "../components/FooterComp.vue";
       </div>
     </div>
   </main>
-  <FooterComp />
 </template>
 
 
